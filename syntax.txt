@@ -1,0 +1,32 @@
+-- 01:01
+[MasaiLog tyazılma]
+{
+	-- 01:03
+	[verilere bak]
+	{
+		bakıldı.
+		@ornek[
+			   ->girdi
+			   ->cikti
+			   ->islev
+			   ->kural
+			  ]
+		@
+		@hata[
+				->onemsiz
+				->dikkat
+				->acil
+				->hayati
+			]
+		@
+		@uyari@
+		@yapilacak@
+		@alarm@
+	}
+	-- 01:04
+	[format ayarla]
+	{
+		default format iyi!
+	}
+}
+
