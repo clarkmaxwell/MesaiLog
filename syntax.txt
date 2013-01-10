@@ -1,25 +1,32 @@
+﻿========================================
+deneme
+========================================
+
 -- 01:01
 [MasaiLog tyazılma]
 {
 	-- 01:03
-	[verilere bak]
+	[verilere]
 	{
-		bakıldı.
-		@ornek[
-			   ->girdi
-			   ->cikti
-			   ->islev
-			   ->kural
-			  ]
-		@
-		@hata[
-				->onemsiz
-				->dikkat
-				->acil
-				->hayati
-			]
-		@
-		@uyari@
+		@aciklama:->bakıldı.
+			  <-
+
+		@ornek:->
+			  <girdi></girdi>
+			  <cikti></cikti>
+			  <islev></islev>
+			  <kural></kural>
+			<-
+		
+		@hata:->
+			<onemsiz><!onemsiz>
+			<dikkat><!dikkat>
+			<acil><!acil>
+			<hayati><!hayati>
+		      <-
+		@uyari:->turker
+			veri
+			<-
 		@yapilacak@
 		@alarm@
 	}
@@ -29,4 +36,6 @@
 		default format iyi!
 	}
 }
-
+========================================
+deneme2
+========================================
