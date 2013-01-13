@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+
+div
+{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.col
+{
+	height:70%;
+	top:20%;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 0.5px solid;
+}
+.left
+{
+	position:absolute;
+	margin-left:4%;
+	width:10%;
+	display:none;
+}
+.middle
+{
+	position:absolute;
+	margin-left:15%;
+	width:40%;
+}
+
+.right
+{
+	position:absolute;
+	margin-left:57%;
+	width:40%;
+}
+.arsivGoster
+{
+	width:10%;
+	position:absolute;
+	left:6%;
+	top:25%;
+}
+
+#logGirisFormu
+{
+	width:90%;
+	height:90%;
+	margin-left:20px;
+	margin-top:20px;
+}
+.log
+{
+	width:80%;
+	margin-left:5%;
+}
+.logGiris
+{
+	width:100%;
+}
+.logIcerik
+{
+	display:none;
+}
+#logContainer
+{
+	margin-top:30px;
+}
+#baslik
+{
+	height:30px;
+}
+
+.hata {
+  color: #c09853;
+}
+
+.acil {
+  color: #b94a48;
+}
+
+.yapilacak {
+  color: #3a87ad;
+}
+.girdi {
+  color: #c09853;
+}
+.cikti {
+  color: #468847;
+}
