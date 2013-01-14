@@ -28,7 +28,8 @@ $(document).ready(function(){
 function logGir()
 {
 	var zaman = new Date();
-	var veri  = $("#logMesajGirisi").val().replace(/\s*@(ornek|uyari|yapilacak|acil|girdi|cikti):\s*([a-zA-Z0-9\s*.,\?;@]*)<-\s*/g,"<pre class='$1'>@$1:$2</pre>");	
+	console.log($("#logMesajGirisi").val());
+	var veri  = $("#logMesajGirisi").val().replace(/\s*@(ornek|uyari|yapilacak|acil|girdi|cikti):\s*([a-zA-Z0-9\x0080-\xFFFF\s*.,\?;@]*)<-\s*/g,"<pre class='$1'>@$1:$2</pre>");	
 	$("#logContainer").prepend("<div class='log alert'><i class='icon-time'></i><span>"+zaman.getHours()+":"+zaman.getMinutes()+"</span>&nbsp;<span>"+$("#baslik").val()+"</span><div id='logIcerik-1' class='logIcerik'>"+veri+"</div></div>");
 	formTemizle();
 }
